@@ -6,7 +6,7 @@ export default class ImageGalleryItem extends Component {
     render() {
         return (
             <li className={styles.galleryItem}>
-                <img src={this.props.smallImgURL } alt='{this.props.id}' />
+                <img src={this.props.smallImgURL } alt={this.props.id} />
             </li>
         )
     }
