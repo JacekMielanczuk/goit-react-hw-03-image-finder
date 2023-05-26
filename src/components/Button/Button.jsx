@@ -1,9 +1,9 @@
-import styles from './Button.module.css';
 import PropTypes from 'prop-types';
+import styles from './Button.module.css';
 
-const button = ({ onClick }) => {
+const Button = ({ onClick }) => {
   return (
-    <button type="button" className="styles.button" onClick={onClick}>
+    <button type="button" className={styles.button} onClick={onClick}>
       Load more
     </button>
   );
